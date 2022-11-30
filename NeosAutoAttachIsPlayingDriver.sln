@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeosAutoAttachIsPlayingDriver", "NeosAutoAttachIsPlayingDriver\NeosAutoAttachIsPlayingDriver.csproj", "{131BCCF9-6220-4831-9832-9671ACE4686E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeosAutoAttachIsPlayingDriver.Test", "NeosAutoAttachIsPlayingDriver.Test\NeosAutoAttachIsPlayingDriver.Test.csproj", "{67924ED6-7AC2-4B39-BC43-47E17889CB40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{131BCCF9-6220-4831-9832-9671ACE4686E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131BCCF9-6220-4831-9832-9671ACE4686E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131BCCF9-6220-4831-9832-9671ACE4686E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131BCCF9-6220-4831-9832-9671ACE4686E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67924ED6-7AC2-4B39-BC43-47E17889CB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67924ED6-7AC2-4B39-BC43-47E17889CB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67924ED6-7AC2-4B39-BC43-47E17889CB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67924ED6-7AC2-4B39-BC43-47E17889CB40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {023E4190-76B5-400D-80F8-4FBA92858EF7}
+	EndGlobalSection
+EndGlobal
