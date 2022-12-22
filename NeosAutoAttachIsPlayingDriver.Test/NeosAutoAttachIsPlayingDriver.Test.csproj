@@ -38,9 +38,32 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+	<Reference Include="FrooxEngine">
+		<HintPath>C:\Neos\app\Neos_Data\Managed\FrooxEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="HarmonyLib">
+		<HintPath>$(NeosPath)nml_libs\0Harmony.dll</HintPath>
+		<HintPath Condition="Exists('$(NeosPath)0Harmony.dll')">$(NeosPath)0Harmony.dll</HintPath>
+	</Reference>
+	<Reference Include="BaseX">
+		<HintPath>$(NeosPath)Neos_Data\Managed\BaseX.dll</HintPath>
+	</Reference>
+	<Reference Include="NeosModLoader">
+		<HintPath>$(NeosPath)Libraries\NeosModLoader.dll</HintPath>
+		<HintPath Condition="Exists('$(NeosPath)NeosModLoader.dll')">$(NeosPath)NeosModLoader.dll</HintPath>
+	</Reference>
+	<Reference Include="Newtonsoft.Json">
+		<HintPath>$(NeosPath)Neos_Data\Managed\Newtonsoft.Json.dll</HintPath>
+	</Reference>
+	<Reference Include="BepuPhysics">
+		<HintPath>$(NeosPath)Neos_Data\Managed\BepuPhysics.dll</HintPath>
+	</Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
+    <PackageReference Include="Moq">
+      <Version>4.18.3</Version>
+    </PackageReference>
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -51,6 +74,12 @@
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NeosAutoAttachIsPlayingDriver\NeosAutoAttachIsPlayingDriver.csproj">
+      <Project>{131bccf9-6220-4831-9832-9671ace4686e}</Project>
+      <Name>NeosAutoAttachIsPlayingDriver</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
