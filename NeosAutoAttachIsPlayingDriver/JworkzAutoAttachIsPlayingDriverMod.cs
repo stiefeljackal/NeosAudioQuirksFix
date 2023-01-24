@@ -7,18 +7,18 @@ using JworkzNeosMod.Extensions;
 
 namespace JworkzNeosMod
 {
-    public class NeosAutoAttachIsPlayingDriverMod : NeosMod
+    public class JworkzAutoAttachIsPlayingDriverMod : NeosMod
     {
         public const int DEFAULT_APPLY_DELAY_UPDATES = 6;
 
-        public override string Name => nameof(NeosAutoAttachIsPlayingDriverMod);
+        public override string Name => nameof(JworkzAutoAttachIsPlayingDriverMod);
         public override string Author => "Stiefel Jackal";
         public override string Version => "1.0.0";
         public override string Link => "https://github.com/stiefeljackal/NeosAutoAttachIsPlayingDriver";
 
         [AutoRegisterConfigKey]
         private static readonly ModConfigurationKey<bool> KEY_ENABLE =
-            new ModConfigurationKey<bool>("enabled", $"Enables the {nameof(NeosAutoAttachIsPlayingDriverMod)} mod", () => true);
+            new ModConfigurationKey<bool>("enabled", $"Enables the {nameof(JworkzAutoAttachIsPlayingDriverMod)} mod", () => true);
 
         [AutoRegisterConfigKey]
         private static readonly ModConfigurationKey<int> KEY_APPLY_DELAY_UPDATES =
