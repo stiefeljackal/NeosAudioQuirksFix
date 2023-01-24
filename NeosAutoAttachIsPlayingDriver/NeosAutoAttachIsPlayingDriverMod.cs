@@ -103,7 +103,7 @@ namespace JworkzNeosMod
                 var outputable = new NeosMediaSlotWrapper(slot);
                 IAudioPlaybackable playbackable = new NeosAudioPlayerWrapper(slot);
 
-                if (playbackable.PlaybackSource == null && !playbackable.IsVideoPlayer)
+                if (playbackable.PlaybackSource == null)
                 {
                     playbackable = new NeosVideoPlayerWrapper(slot);
                 }
