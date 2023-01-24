@@ -1,7 +1,7 @@
 ﻿using FrooxEngine;
 using JworkzNeosMod.Abstract;
 
-namespace JworkzNeosMod
+namespace JworkzNeosMod.Wrappers
 {
     internal class NeosAudioPlayerWrapper : IAudioPlaybackable
     {

@@ -1,7 +1,7 @@
 ﻿using FrooxEngine;
 using JworkzNeosMod.Abstract;
 
-namespace JworkzNeosMod
+namespace JworkzNeosMod.Wrappers
 {
     internal class NeosMediaSlotWrapper : IAudioOutputable
     {
@@ -11,7 +11,7 @@ namespace JworkzNeosMod
 
         public AudioOutput _audioOutput;
 
-        public bool HasAudioSource  => _audioOutput?.Source?.ReferenceID != null;
+        public bool HasAudioSource => _audioOutput?.Source?.ReferenceID != null;
 
         public NeosMediaSlotWrapper(Slot slot)
         {
