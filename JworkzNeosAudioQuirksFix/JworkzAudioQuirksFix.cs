@@ -4,21 +4,22 @@ using FrooxEngine;
 using JworkzNeosMod.Events;
 using JworkzNeosMod.Abstract;
 using JworkzNeosMod.Extensions;
+using JworkzNeosMod.Wrappers;
 
 namespace JworkzNeosMod
 {
-    public class JworkzAutoAttachIsPlayingDriverMod : NeosMod
+    public class JworkzAudioQuirksFix : NeosMod
     {
         public const int DEFAULT_APPLY_DELAY_UPDATES = 6;
 
-        public override string Name => nameof(JworkzAutoAttachIsPlayingDriverMod);
+        public override string Name => nameof(JworkzAudioQuirksFix);
         public override string Author => "Stiefel Jackal";
         public override string Version => "1.0.0";
         public override string Link => "https://github.com/stiefeljackal/NeosAutoAttachIsPlayingDriver";
 
         [AutoRegisterConfigKey]
         private static readonly ModConfigurationKey<bool> KEY_ENABLE =
-            new ModConfigurationKey<bool>("enabled", $"Enables the {nameof(JworkzAutoAttachIsPlayingDriverMod)} mod", () => true);
+            new ModConfigurationKey<bool>("enabled", $"Enables the {nameof(JworkzAudioQuirksFix)} mod", () => true);
 
         [AutoRegisterConfigKey]
         private static readonly ModConfigurationKey<int> KEY_APPLY_DELAY_UPDATES =

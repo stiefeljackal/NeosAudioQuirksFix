@@ -6,8 +6,8 @@
     <ProjectGuid>{67924ED6-7AC2-4B39-BC43-47E17889CB40}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NeosAutoAttachIsPlayingDriver.Test</RootNamespace>
-    <AssemblyName>NeosAutoAttachIsPlayingDriver.Test</AssemblyName>
+    <RootNamespace>JworkzNeosAudioQuirksFix.Test</RootNamespace>
+    <AssemblyName>JworkzNeosAudioQuirksFix.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -76,9 +76,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NeosAutoAttachIsPlayingDriver\NeosAutoAttachIsPlayingDriver.csproj">
+    <ProjectReference Include="..\JworkzNeosAudioQuirksFix\JworkzNeosAudioQuirksFix.csproj">
       <Project>{131bccf9-6220-4831-9832-9671ace4686e}</Project>
-      <Name>NeosAutoAttachIsPlayingDriver</Name>
+      <Name>JworkzNeosAudioQuirksFix</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

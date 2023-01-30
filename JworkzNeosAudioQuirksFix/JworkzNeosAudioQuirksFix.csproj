@@ -4,7 +4,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>JworkzNeosMod</RootNamespace>
-    <AssemblyTitle>JworkzNeosAutoAttachIsPlayingDriver</AssemblyTitle>
+    <AssemblyTitle>JworkzNeosAudioQuirksFix</AssemblyTitle>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <TargetFramework>net462</TargetFramework>
     <FileAlignment>512</FileAlignment>
